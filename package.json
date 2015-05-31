@@ -1,0 +1,15 @@
+{
+  "name": "gtfs-updater",
+  "version": "0.1.0",
+  "description": "GTFS download scheduler",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app"
+  },
+  "author": "Alessio Bogon",
+  "license": "ISC",
+  "dependencies": {
+    "every-moment": "~0.0.1",
+    "gtfs": "~0.1.4"
+  }
+}

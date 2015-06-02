@@ -10,6 +10,6 @@
 6. Push the application to heroku:
 `git push heroku master`
 
-##Configuration for loading data
+##Configuration
 
-Before you can use gtfs-updater you must specify agency in __config.js__
+Agencies can be specified using the  __config.js__ file.

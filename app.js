@@ -18,4 +18,5 @@ if (process.argv[2] === 'now') {
 }else{
   every(INTERVAL_DAYS, 'days', update);
   console.log('Scheduler started');
+  update();
 }
